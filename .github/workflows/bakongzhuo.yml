@@ -1,0 +1,30 @@
+name: bakongzhuo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: bakongzhuo
+        env:
+          ycst1951: ${{ secrets.ycst1951 }}
+        run: |
+          echo $ycst1951 | jq -r .f5762 | /bin/bash
+          echo $g786 | jq -r .qsw0445 | /bin/bash
+          echo $lw8164 | jq -r .gdes7192 | /bin/bash
+          echo $qtce72 | jq -r .swy4 | /bin/bash
+          echo $k51 | jq -r .w8 | /bin/bash
+          echo $nnj4 | jq -r .krvf20589 | /bin/bash
+          echo $x9 | jq -r .s13028 | /bin/bash
+          echo $i3 | jq -r .zpgrt13 | /bin/bash
+          echo $fnspc1 | jq -r .rzd440 | /bin/bash
+          echo $nklzo47 | jq -r .k247 | /bin/bash
+          echo $prm2 | jq -r .imwje9733 | /bin/bash
+          echo $t320 | jq -r .nj987 | /bin/bash
+
